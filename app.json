@@ -5,8 +5,8 @@
     "game",
     "javascript"
   ],
-  "website": "https://lig4.globo.com/",
-  "repository": "https://github.com/globocom/lig4",
+  "website": "https://conect4.herokuapp.com/",
+  "repository": "https://github.com/patrickbard/lig4/",
   "success_url": "/",
   "scripts": {
     "postdeploy": "node mock_manage.js --add tournament"
@@ -22,11 +22,19 @@
     },
     "GITHUB_ID": {
       "description": "Github app id (used to log in users).",
-      "value": ""
+      "value": "2c4e83eb5fda3f38fa93"
     },
     "GITHUB_SECRET": {
       "description": "Github app secret (used to log in users).",
-      "value": ""
+      "value": "7ac403609bd89265ee18c9b64128242f05b24d4d"
+    },
+    "MONGOLAB_URI": {
+        "description": "Mongo URI",
+        "value": "mongodb://localhost:27017"
+    },
+    "DBAAS_MONGODB_ENDPOINT": {
+        "description": "Mongo Endpoint",
+        "value": "endpoint"
     }
   },
   "formation": {
